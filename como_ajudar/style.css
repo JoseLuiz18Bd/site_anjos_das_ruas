@@ -1,0 +1,62 @@
+body{
+    background-image:url(../img/logo/LOGO_OPACA.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 50px;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(250, 233, 185);
+}
+
+
+h1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 50px;
+    color: aliceblue;
+    text-shadow: 5px  5px  5px rgba(44, 39, 39, 0.601);
+}
+
+i{
+    position: fixed;
+    color: white;
+    font-size: 50px;
+    text-shadow: 1px  1px  5px rgb(44, 39, 39);
+    margin: 50px;
+}
+
+i:hover{
+    transition: .6s;
+    transform: scale(1.6);
+}
+
+.doacao{
+    display:flex;
+    justify-content:center;
+}
+
+.doacao h1{
+    font-size: 30px;
+}
+
+.items{
+    display:flex;
+    justify-content:center;
+
+}
+
+img{
+   width: 400px;
+   height: 400px;
+   border-radius: 20px;
+   box-shadow: 5px 5px 20px black;
+}
+.conta{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px  1px  5px rgb(44, 39, 39);    
+}
